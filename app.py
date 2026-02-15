@@ -61,4 +61,5 @@ def get_clip():
     else:
         return "No clip found"
 
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run()

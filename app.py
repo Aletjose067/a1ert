@@ -4,7 +4,7 @@ import time
 import os
 
 app = Flask(__name__)
-
+#edit
 def init_db():
     con = sqlite3.connect("clips.db")
     cur = con.cursor()
